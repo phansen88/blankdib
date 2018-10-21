@@ -1,0 +1,31 @@
+{
+  "name": "blankdib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  },
+  "scripts": {
+    "postcss": "postcss --no-map --use autoprefixer --config build/postcssOptions.js --replace src/css/bootstrap.css"
+  },
+  "author": "",
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "font-awesome": "^4.7.0",
+    "grunt": "^1.0.3",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.4.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-exec": "^3.0.0",
+    "grunt-sass": "^2.1.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "postcss-cli": "^5.0.1",
+    "postcss-flexbugs-fixes": "^3.3.1"
+  }
+}

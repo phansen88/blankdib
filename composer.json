@@ -1,0 +1,13 @@
+{
+    "authors": [
+        {
+            "name": "Peter Hansen",
+            "email": "ph@blankdib.com",
+            "homepage": "https://www.blankdib.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "facebook/graph-sdk": "^5.6"
+    }
+}
