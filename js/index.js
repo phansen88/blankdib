@@ -1,4 +1,8 @@
 var app = new Vue({
+    /*
+    * el: defines the selector for the root element
+    * 
+    */
     el: '#app',
     data: {
         load: false,
@@ -17,6 +21,7 @@ var app = new Vue({
             })
         }
     },
+    router,
     mounted() {
         axios.get('/api/products/').then(function(response) {
             console.log(response.data);
@@ -24,4 +29,4 @@ var app = new Vue({
             app.records = response.data;
         })
     }
-  });
+  }).$mount('#app');
