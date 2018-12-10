@@ -1,5 +1,5 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
-dbconfig.php
+
 # compiled output
 /dist
 /dist-server
@@ -44,3 +44,4 @@ testem.log
 Thumbs.db
 package-lock.json
 yarn-error.log
+dbconfig.php
