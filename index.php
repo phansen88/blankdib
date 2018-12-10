@@ -41,7 +41,7 @@ session_start();
                             <div class="m-stack__item m-stack__item--middle m-brand__logo">
                                 <a href="index.html" class="m-brand__logo-wrapper">
                                     <!--<img alt="" src="assets/demo/default/media/img/logo/logo_default_dark.png">-->
-                                    Blankdib
+                                    Blankdib.com
                                 </a>
                             </div>
                             <div class="m-stack__item m-stack__item--middle m-brand__tools">
